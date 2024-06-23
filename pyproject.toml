@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "quarkus_finder"
+version = "0.1.0"
+description = ""
+authors = ["peter-777 <32381921+peter-777@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.35.0"
+streamlit-chat = "^0.1.1"
+openai = "^1.35.1"
+langchain = "^0.2.5"
+langchain-openai = "^0.1.8"
+langchain-community = "^0.2.5"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.2"
+faiss-cpu = "^1.8.0"
+markdownify = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
