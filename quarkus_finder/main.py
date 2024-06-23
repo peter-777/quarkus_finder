@@ -107,7 +107,7 @@ def main():
         # Add user message to chat history
         st.session_state.history.add_message(HumanMessage(content=input_msg))
         # Display user message in chat message container
-        with st.chat_message("humman"):
+        with st.chat_message("human"):
             st.markdown(input_msg)
 
         # Display assistant response in chat message container
