@@ -11,7 +11,6 @@ RUN python3.12 -m ensurepip && \
 COPY pyproject.toml /app
 
 RUN python3.12 -m pip install --no-cache-dir poetry && \
-    poetry self add poetry-plugin-export && \
     poetry config virtualenvs.in-project true && \
     poetry install
 
